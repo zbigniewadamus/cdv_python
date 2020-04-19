@@ -54,6 +54,7 @@ y = y / 2
 print(type(y))
 print(y)
 '''
+'''
 surname = "Kowalski"
 print()
 print(surname[0]) #K
@@ -62,3 +63,5 @@ print(surname[-2]) #k
 print(surname[-2:]) #ki
 print(surname[:-2]) #Kowals
 print(surname[:-2:2]) #Kwl
+'''
+
