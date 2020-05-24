@@ -1,0 +1,19 @@
+
+zgoda = 0
+while zgoda==0:
+    ile = eval(input("Wprowadz liczbe elementów do posortowania <1-10>: "))
+    if(ile>0 and ile<11):
+        zgoda = 1
+        break
+    print("\nZla liczba, sprobuj ponownie.\n")
+
+a = []
+for i in range(ile):
+    print("Podaj liczbe [",(i+1),"]: ",end='')
+    a.append(eval(input())) 
+
+a.sort()
+print("Liczby posortowane:")
+
+for i in range(ile):
+    print("Liczba [",i+1,"] : ",a[i])
